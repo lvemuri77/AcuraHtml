@@ -1,0 +1,318 @@
+ 			.showInMobile {
+                display: none;
+            }
+            .hideInMobile {
+                display: none;
+            }
+
+            .fontS20{
+                font-size:20px;
+            }
+            .fontS14 {
+                font-size: 14px;
+            }
+
+            .fontS12 {
+                font-size: 12px;
+            }
+
+            .fontS8 {
+                font-size: 8px;
+            }
+
+            .colrGray {
+                color: gray;
+            }
+
+            a {
+                color:#000;
+            }
+
+            header{
+
+                margin:0px;
+				padding: 0px;
+            }
+            .ul {
+                list-style: none;
+                float:right;
+
+            }
+
+            .li {
+                display: inline-block;
+                padding-left:10px;
+            }
+
+            p { line-height: 22px;
+                margin-bottom: 30px;}
+
+            .grad1 {
+                height: 200px;
+                background: black; /* For browsers that do not support gradients */
+                background: -webkit-linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,1)); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,1)); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,1)); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(rgba(0,0,0,.2), rgba(0,0,0,1)); /* Standard syntax (must be last) */
+            }
+            .grad2 {
+                height: 200px;
+                background: black; /* For browsers that do not support gradients */
+                background: -webkit-linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.1)); /* For Safari 5.1 to 6.0 */
+                background: -o-linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.1)); /* For Opera 11.1 to 12.0 */
+                background: -moz-linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.1)); /* For Firefox 3.6 to 15 */
+                background: linear-gradient(rgba(0,0,0,1), rgba(0,0,0,.1)); /* Standard syntax (must be last) */
+            }
+            .col-md-12 {
+                padding: 0px;
+                margin: 0px;
+            }
+
+            .bodyTop {
+                margin-top:0px;background-color: #fff;
+            }
+
+            .navigate {
+                float:left;position:absolute;z-index:999;
+            }
+
+            .navRight {
+                float: right;margin: 0px;padding: 0px;
+            }
+
+            .subNav {
+                margin:0px;
+				padding:0px;
+				color:#ffffff;
+				background:rgba(0,0,0,.5);
+				height:45px;
+				font-size:11px;
+            }
+
+            .sliderBlock {
+                height:423px;
+            }
+
+            .sliderOverlay {
+                padding: 20px;
+				width:390px;
+				height:390px;
+				position:absolute;
+				right:128px;
+				color:#ffffff;
+                z-index: 99999;
+				top:20px;
+            }
+
+            .img116x180 {
+                height:116px;width:180px;
+            }
+            .imgx423 {
+                width:100%;height:423px;
+            }
+
+            .img60x60 {
+                width:60px;height:60px;
+            }
+
+            .img60x45 {
+                width:60px;height:45px;
+            }
+
+            .txtbBlue {
+                color:#5bc0de;font-weight:bold;
+            }
+            .center {
+                text-align: center;
+            }
+
+            .blue-btn {
+                vertical-align:middle;color:#fff;background:#5bc0de;border: 0px;border-radius: 0px;height: 30px;
+            }
+
+            .fixMarginBttm {
+                margin-bottom:0px;
+            }
+
+            .fullWidth {
+                width: 100%;
+            }
+
+            .fullHeight {
+                height: 100%;
+            }
+
+            .fixHgt50 {
+                height: 50px;
+            }
+            .pdingBttm20 {
+                height:auto;padding-bottom:20px;
+            }
+
+            .margint20 {
+                margin-top: 20px;
+            }
+
+            .margint35 {
+                margin-top: 35px
+            }
+
+            .bgcolorEd{
+                background:#ededed;
+            }
+
+
+
+            .searchDlrBtn38 {
+                vertical-align:middle;
+				color:#fff;
+				background:#5bc0de;
+				border: 0px;
+				border-radius: 0px;
+				height: 38px;
+				width:85%;
+				font-size:14px
+            }
+
+            .readMoreLink {
+                color:#5bc0de;text-decoration:underline;
+            }
+
+            .sideBanner {border: 1px solid #ededed;margin-top: 11px;}
+            .sideBanner .bannerHeading{font-size: 20px;
+                        text-align: center;
+                        font-weight: bold;padding: 5px 0px;
+                        border-bottom: 1px solid #f9f5f5;
+            }
+
+            .viewInventoryBtn {
+                vertical-align:middle;color:#fff;background:#5bc0de;border: 0px;border-radius: 0px;height: 26px;
+                width: 110px;
+                font-size: 10px;
+            }
+
+            .offerTxt {
+                text-align: center;
+                color: #FF9800;
+                font-weight: bold;
+            }
+            .reqInfoBtn {
+                vertical-align:middle;color:#fff;background:#5bc0de;border: 0px;border-radius: 0px;height: 26px;
+                width: 100px;
+                font-size: 10px;
+            }
+
+            .offerValidityTxt {
+                margin-bottom: 10px;
+                color: #6d6b6b;
+            }
+
+            .headingDealer {
+                margin-top: -6px;
+                font-size: 45px;
+            }
+            .row-bg {
+			background-image: url(images/banner-foot.jpg);
+			width: 100%;
+			height: auto;
+			padding: 15px;
+			margin:20px 0px;
+			}
+            .search-button {
+				margin-top: 15px;
+				width: 90%;
+				height: 35px;
+				text-align: center;
+				font-size: 0.8em;
+				border-radius: 0;
+				background-color: #31b0d5;
+			}
+			.search-input {
+			margin-top: 15px;
+			width: 90%;
+			}
+			.search-deal{
+			font-size: 1.5em;
+			float:right;
+			color: #fff;
+			}
+			footer {
+			  background-color: #2d2d30;
+			  color: #f5f5f5;
+			  padding: 32px;
+			  }
+			  footer a {
+				  color: #f5f5f5;
+			  }
+			  footer a:hover {
+				  color: #777;
+				  text-decoration: none;
+			  }
+            @media (max-width: 799px) {
+                .hideInMobile {
+                    display: none;
+               }
+                .showInMobile {
+                    display: block;
+                }
+                .headingDealer {
+                    margin-top: 23px;
+                    font-size: 33px;
+                    line-height: 29px;
+                    margin-bottom: 30px;
+                }
+
+                .blue-btn {
+                        vertical-align: middle;
+                        color: #fff;position: absolute;
+    					right: 2px;
+						top: 25px;
+                        background: #5bc0de;
+                        border: 0px;
+                        border-radius: 0px;
+                        height: 22px;
+                        padding: 0px;
+                        width: 177px;
+                }
+
+                .sliderOverlay {
+                    padding: 20px;width:390px;height:390px;right:128px;color:#ffffff;
+
+                }
+                .ul {
+                    list-style: none;
+                    float:right;
+                    padding-left: 0px;
+                    padding-left: 0px;
+
+                }
+
+                .li {
+                    display: inline-block;
+                    padding-left:0px;
+                }
+            }
+			@media screen and (max-width:980px){
+				.subNav span{
+					display:none;
+				}
+			}
+            @media (min-width: 800px) and (max-width: 991px) {
+
+                .hideInMobile {
+                    display: block;
+                }
+            }
+            @media (min-width: 992px) and (max-width: 1199px) {
+
+                .hideInMobile {
+                    display: block;
+                }
+            }
+            @media (min-width: 1200px) {
+
+                .hideInMobile {
+                    display: block;
+                }
+
+            }
